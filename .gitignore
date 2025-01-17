@@ -62,9 +62,14 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
+bin
+obj
+packages
 # Tye
 .tye/
-
+net8.0
+**/bin/
+**/obj/
 # ASP.NET Scaffolding
 ScaffoldingReadMe.txt
 
