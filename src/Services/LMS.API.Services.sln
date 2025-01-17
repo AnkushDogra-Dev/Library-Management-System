@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Identity", "Identity", "{00E45BF5-BF6F-46B9-AA44-FE0A70AFF302}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Identity.API", "Identity\LMS.Identity.API\LMS.Identity.API.csproj", "{CE574386-83E9-4F79-94F1-F384C8888FF4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BooksRecord", "BooksRecord", "{ED98B9B5-6A52-4902-8DC3-9996E1F188E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.BooksRecordService.API", "BooksRecord\LMS.BooksRecordService.API\LMS.BooksRecordService.API.csproj", "{A67F9891-0692-4B2F-9537-2DDBC8D020E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UsersRecord", "UsersRecord", "{79CF1442-7519-4678-B45F-6A649B438E59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.UsersRecordService.API", "UsersRecord\LMS.UsersRecordService.API\LMS.UsersRecordService.API.csproj", "{7EBB7260-53D9-4347-8718-83FD6ED34DED}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Mono", "Mono", "{22489C33-989B-40D0-AEE4-A6481248B85B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Mono.API", "Mono\LMS.Mono.API\LMS.Mono.API.csproj", "{BC0CE411-B4AD-46FD-86B0-52C62246DD33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE574386-83E9-4F79-94F1-F384C8888FF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE574386-83E9-4F79-94F1-F384C8888FF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE574386-83E9-4F79-94F1-F384C8888FF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE574386-83E9-4F79-94F1-F384C8888FF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67F9891-0692-4B2F-9537-2DDBC8D020E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A67F9891-0692-4B2F-9537-2DDBC8D020E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A67F9891-0692-4B2F-9537-2DDBC8D020E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A67F9891-0692-4B2F-9537-2DDBC8D020E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EBB7260-53D9-4347-8718-83FD6ED34DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EBB7260-53D9-4347-8718-83FD6ED34DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EBB7260-53D9-4347-8718-83FD6ED34DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EBB7260-53D9-4347-8718-83FD6ED34DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC0CE411-B4AD-46FD-86B0-52C62246DD33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC0CE411-B4AD-46FD-86B0-52C62246DD33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC0CE411-B4AD-46FD-86B0-52C62246DD33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC0CE411-B4AD-46FD-86B0-52C62246DD33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CE574386-83E9-4F79-94F1-F384C8888FF4} = {00E45BF5-BF6F-46B9-AA44-FE0A70AFF302}
+		{A67F9891-0692-4B2F-9537-2DDBC8D020E7} = {ED98B9B5-6A52-4902-8DC3-9996E1F188E5}
+		{7EBB7260-53D9-4347-8718-83FD6ED34DED} = {79CF1442-7519-4678-B45F-6A649B438E59}
+		{BC0CE411-B4AD-46FD-86B0-52C62246DD33} = {22489C33-989B-40D0-AEE4-A6481248B85B}
+	EndGlobalSection
+EndGlobal
