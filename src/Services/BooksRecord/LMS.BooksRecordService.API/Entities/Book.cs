@@ -21,7 +21,7 @@ namespace LMS.BooksRecordService.API.Entities
 
         // Constructor to Initialize Required Fields
         public Book(
-            string bookId,
+            Guid bookId,
             string title,
             string author,
             string isbn,
@@ -79,6 +79,32 @@ namespace LMS.BooksRecordService.API.Entities
         {
             Status = AvailableCopies > 0 ? "Available" : "Borrowed";
         }
-    
+
+        // Method to update book details (used during upsert)
+        public void UpdateBookDetails(
+            string title,
+            string author,
+            string isbn,
+            string publisher,
+            DateTime publicationDate,
+            int availableCopies,
+            int numberOfCopies,
+            string shelfLocation,
+            string status
+        )
+        {
+            Title = title;
+            Author = author;
+            ISBN = isbn;
+            Publisher = publisher;
+            PublicationDate = publicationDate;
+            AvailableCopies = availableCopies;
+            NumberOfCopies = numberOfCopies;
+            ShelfLocation = shelfLocation;
+            Status = status;
+
+            UpdateStatus();
+            UpdateShelfLocation("s");
+        }
     }
 }

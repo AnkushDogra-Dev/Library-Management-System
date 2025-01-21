@@ -9,7 +9,9 @@
   <ItemGroup>
     <PackageReference Include="MediatR" Version="12.4.1" />
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.12" />
-    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+  <ItemGroup>
+       <ProjectReference Include="../../Identity/LMS.Identity.API/LMS.Identity.API.csproj" />
   </ItemGroup>
 
 </Project>

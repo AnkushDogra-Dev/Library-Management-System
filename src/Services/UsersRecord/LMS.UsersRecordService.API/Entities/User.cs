@@ -29,7 +29,7 @@ namespace LMS.UsersRecordService.API.Entities
 
         // Constructor to initialize necessary fields
         public User(
-            string userId,
+            Guid userId,
             string fullName,
             string emailAddress,
             string membershipType,
@@ -80,6 +80,5 @@ namespace LMS.UsersRecordService.API.Entities
         {
             OverdueFineBalance = 0.0m;
         }
-    
     }
 }
