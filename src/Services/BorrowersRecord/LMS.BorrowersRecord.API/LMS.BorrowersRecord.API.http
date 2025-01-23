@@ -1,0 +1,6 @@
+@LMS.BorrowersRecord.API_HostAddress = http://localhost:5079
+
+GET {{LMS.BorrowersRecord.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

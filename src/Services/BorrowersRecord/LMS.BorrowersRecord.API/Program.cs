@@ -1,9 +1,9 @@
-using LMS.BooksRecordService.API.Persistance;
+using LMS.Identity.API.Persistance;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
 
-builder.Services.AddDbContext<BooksDbContext>(options =>
+builder.Services.AddDbContext<BorrowerDbContext>(options =>
 	options.UseSqlServer(builder.Configuration.GetConnectionString("LMSDbConnectionString")));
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

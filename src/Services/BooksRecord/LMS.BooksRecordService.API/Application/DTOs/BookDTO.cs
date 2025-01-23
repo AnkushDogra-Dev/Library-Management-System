@@ -22,6 +22,6 @@ namespace LMS.BooksRecordService.API.Application.DTOs
         public int AvailableCopies { get; init; }
         public int NumberOfCopies { get; init; }
         public string ShelfLocation { get; init; } = "";
-        public string Status { get; init; } // iska enum banana he mene.
+        public string Status { get; init; } = ""; // iska enum banana he mene.
     }
 }
