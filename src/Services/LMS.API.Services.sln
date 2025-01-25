@@ -23,6 +23,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BorrowersRecord", "Borrower
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.BorrowersRecord.API", "BorrowersRecord\LMS.BorrowersRecord.API\LMS.BorrowersRecord.API.csproj", "{BB78756A-F7EA-4084-8497-04876D80BFB3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LMS.Application.Common", "..\Common\LMS.Application.Common\LMS.Application.Common.csproj", "{6F07C44B-E3E5-489B-B3EC-9823EF8D99EF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -52,6 +54,10 @@ Global
 		{BB78756A-F7EA-4084-8497-04876D80BFB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB78756A-F7EA-4084-8497-04876D80BFB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB78756A-F7EA-4084-8497-04876D80BFB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F07C44B-E3E5-489B-B3EC-9823EF8D99EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F07C44B-E3E5-489B-B3EC-9823EF8D99EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F07C44B-E3E5-489B-B3EC-9823EF8D99EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F07C44B-E3E5-489B-B3EC-9823EF8D99EF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CE574386-83E9-4F79-94F1-F384C8888FF4} = {00E45BF5-BF6F-46B9-AA44-FE0A70AFF302}

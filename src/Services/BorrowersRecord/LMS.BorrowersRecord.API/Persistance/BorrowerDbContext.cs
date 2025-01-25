@@ -1,7 +1,7 @@
 using LMS.BorrowersRecord.API.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace LMS.Identity.API.Persistance {
+namespace LMS.BorrowersRecord.API.Persistance {
 	public class BorrowerDbContext(DbContextOptions<BorrowerDbContext> options) : DbContext(options)
 	{
 		private const string borrowerSchema = "br";

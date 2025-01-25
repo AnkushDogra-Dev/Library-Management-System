@@ -7,8 +7,8 @@ using System.Threading.Tasks;
 
 namespace LMS.BooksRecordService.API.Application.Queries
 {
-    public class GetBookDetailById : IRequest<BookDTO>
+    public class GetBookByIdQuery : IRequest<string>
     {
-        public string BookId { get; init; } = "";
+        public string BookId { get; init; } = string.Empty;
     }
 }

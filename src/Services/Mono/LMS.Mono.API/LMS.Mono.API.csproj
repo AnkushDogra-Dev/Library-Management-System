@@ -18,7 +18,10 @@
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.1" />
   </ItemGroup>
   <ItemGroup>
-       <ProjectReference Include="../../Identity/LMS.Identity.API/LMS.Identity.API.csproj" />
+    <ProjectReference Include="../../Identity/LMS.Identity.API/LMS.Identity.API.csproj" />
+    <ProjectReference Include="../../BorrowersRecord/LMS.BorrowersRecord.API/LMS.BorrowersRecord.API.csproj" />
+    <ProjectReference Include="../../BooksRecord/LMS.BooksRecordService.API/LMS.BooksRecordService.API.csproj" />
+
   </ItemGroup>
 
 </Project>

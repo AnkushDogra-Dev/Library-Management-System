@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LMS.BooksRecordService.API.Migrations
 {
     [DbContext(typeof(BooksDbContext))]
-    [Migration("20250123114606_InitialCreate")]
+    [Migration("20250125101615_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -28,9 +28,11 @@ namespace LMS.BooksRecordService.API.Migrations
 
             modelBuilder.Entity("LMS.BooksRecordService.API.Entities.Book", b =>
                 {
-                    b.Property<Guid>("BookId")
+                    b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
                     b.Property<string>("Author")
                         .IsRequired()
@@ -65,7 +67,7 @@ namespace LMS.BooksRecordService.API.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.HasKey("BookId");
+                    b.HasKey("Id");
 
                     b.ToTable("Books", "bk");
                 });

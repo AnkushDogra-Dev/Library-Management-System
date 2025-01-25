@@ -3,13 +3,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
+using LMS.Application.Common.Entities;
 
 namespace LMS.BorrowersRecord.API.Entities
 {
-    public class Borrower
+    public class Borrower : SqlEntity
     {
-        [Key]
-        public Guid UserId { get; private set; }
         public string FullName { get; private set; }
 
         // Contact Information
@@ -29,25 +28,18 @@ namespace LMS.BorrowersRecord.API.Entities
         public DateTime RegistrationDate { get; private set; }
 
         // Constructor to initialize necessary fields
-        public Borrower(
-            Guid userId,
-            string fullName,
-            string emailAddress,
-            string membershipType,
-            string libraryCardNumber,
-            DateTime registrationDate
+        public Borrower(string fullName, string emailAddress, string phoneNumber, string membershipType, string libraryCardNumber, DateTime registrationDate
         )
         {
-            UserId = userId;
             FullName = fullName;
             EmailAddress = emailAddress;
+            PhoneNumber = phoneNumber;
             MembershipType = membershipType;
             LibraryCardNumber = libraryCardNumber;
             RegistrationDate = registrationDate;
-
-            AccountStatus = "Active"; 
-            IssuedBooksCount = 0; 
-            OverdueFineBalance = 0.0m; 
+            AccountStatus = "Active";
+            IssuedBooksCount = 0;
+            OverdueFineBalance = 0.0m;
         }
 
         // Public methods to modify fields when necessary

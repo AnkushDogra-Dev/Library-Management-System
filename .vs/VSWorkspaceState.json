@@ -2,17 +2,15 @@
   "ExpandedNodes": [
     "",
     "\\src",
+    "\\src\\Common",
+    "\\src\\Common\\LMS.Application.Common",
     "\\src\\Services",
-    "\\src\\Services\\BooksRecord",
-    "\\src\\Services\\BooksRecord\\LMS.BooksRecordService.API",
-    "\\src\\Services\\BooksRecord\\LMS.BooksRecordService.API\\Persistance",
-    "\\src\\Services\\BorrowersRecord",
     "\\src\\Services\\BorrowersRecord\\LMS.BorrowersRecord.API",
     "\\src\\Services\\BorrowersRecord\\LMS.BorrowersRecord.API\\Persistance",
     "\\src\\Services\\Identity",
     "\\src\\Services\\Identity\\LMS.Identity.API",
     "\\src\\Services\\Identity\\LMS.Identity.API\\Persistance"
   ],
-  "SelectedNode": "\\src\\Services\\BorrowersRecord\\LMS.BorrowersRecord.API\\Persistance\\BorrowerDbContext.cs",
+  "SelectedNode": "\\src\\Services\\LMS.API.Services.sln",
   "PreviewInSolutionExplorer": false
 }

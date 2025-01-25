@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace LMS.BooksRecordService.API.Application.DTOs
 {
@@ -13,7 +9,7 @@ namespace LMS.BooksRecordService.API.Application.DTOs
     )]
     public class BookDTO
     {
-        public Guid BookId { get; init; }
+        public int BookId { get; init; }
         public string Title { get; init; } = "";
         public string Author { get; init; } = "";
         public string ISBN { get; init; } = "";

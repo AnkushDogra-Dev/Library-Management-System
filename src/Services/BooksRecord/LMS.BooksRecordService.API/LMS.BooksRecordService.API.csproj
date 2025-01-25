@@ -24,4 +24,8 @@
     <Folder Include="Repository\" />
   </ItemGroup>
 
+   <ItemGroup>
+        <ProjectReference Include="..\..\..\Common\LMS.Application.Common\LMS.Application.Common.csproj" />
+  </ItemGroup>
+
 </Project>
